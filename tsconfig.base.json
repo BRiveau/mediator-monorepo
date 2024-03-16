@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@mediator-monorepo/data-access": ["libs/data-access/src/index.ts"],
+      "@mediator-monorepo/feature": ["libs/feature/src/index.ts"],
+      "@mediator-monorepo/ui": ["libs/ui/src/index.ts"],
+      "@mediator-monorepo/util": ["libs/util/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
